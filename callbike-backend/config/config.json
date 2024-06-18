@@ -1,0 +1,30 @@
+{
+  "development": {
+    "username": "avnadmin",
+    "password": "AVNS_-8hfoPmol2ayuSVvefZ",
+    "database": "tkpmncdb",
+    "host": "pg-cdtkpm-cdtkpmnc.a.aivencloud.com",
+    "dialect": "postgres",
+    "port": "18615",
+    "SSLMode": "require",
+    "dialectOptions": {
+      "ssl": {
+        "rejectUnauthorized": false     
+      }
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
